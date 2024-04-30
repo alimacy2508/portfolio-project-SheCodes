@@ -52,3 +52,22 @@ p {
   color: black !important;
   cursor: pointer;
 }
+
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color) !important;
+  padding: 15px 30px !important;
+  color: var(--branding-color) !important;
+  border-radius: 4px;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  line-height: 27px !important;
+  font-family: var(--default-font-family);
+}
+
+.heading-2 {
+  font-size: 64px !important;
+}
+.project-description {
+  padding: 120px 60px;
+}
