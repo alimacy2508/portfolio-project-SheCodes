@@ -2,6 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="This page provides an image gallery showcasing the latest projects that Patricia has created, including a weather application and dictionary application"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,12 +21,14 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <title>My Projects</title>
+    <title>
+      This is the work page for front-end developer, Patricia Pereira
+    </title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
+        <a href="/" title="Home page">
           <img
             src="imgs/SheCodes logo.png"
             class="logo d-none d-md-block"
@@ -36,10 +42,12 @@
         </a>
 
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about.html">About </a></li>
-          <li class="active"><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/" title="Home page">Home</a></li>
+          <li><a href="/about.html" title="About page">About </a></li>
+          <li class="active">
+            <a href="/work.html" title="Work page">Work</a>
+          </li>
+          <li><a href="/contact.html" title="Contact page">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -48,19 +56,31 @@
         <h1 class="mb-4">Take a look at what I've been working on!</h1>
         <div class="row">
           <div class="col-md-6 mb-5">
-            <img src="imgs/yogurt-project.png" class="img-fluid rounded" />
+            <img
+              src="imgs/yogurt-project.png"
+              class="img-fluid rounded"
+              alt=" yogurt project"
+            />
             <h3 class="text-center">Yogurt Project</h3>
             <p class="text-center text-muted mt-2">Built with HTML and CSS</p>
           </div>
           <div class="col-md-6 mb-5">
-            <img src="imgs/weather-app.png" class="img-fluid rounded" />
+            <img
+              src="imgs/weather-app.png"
+              class="img-fluid rounded"
+              alt="weather project"
+            />
             <h3 class="text-center">Weather App</h3>
             <p class="text-center text-muted mt-2">
               Built with HTML, CSS and Javascript
             </p>
           </div>
           <div class="col-md-6 mb-5">
-            <img src="imgs/Dictionary-app.png" class="img-fluid rounded" />
+            <img
+              src="imgs/Dictionary-app.png"
+              class="img-fluid rounded"
+              alt="dictionary project"
+            />
             <h3 class="text-center">Dictionary App</h3>
             <p class="text-center text-muted mt-2">
               Built with HTML, CSS and React
@@ -70,6 +90,7 @@
             <img
               src="imgs/translation-app.png"
               class="img-fluid translation-img"
+              alt="translation project"
             />
             <h3 class="text-center">Translation App</h3>
             <p class="text-center text-muted mt-2">
@@ -85,15 +106,23 @@
           class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
         >
           <div>
-            <h4 class="me-3">Work Inquiry</h4>
+            <h3 class="me-3">Work Inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding">Contact Me</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding"
+              title="contact Patricia"
+              >Contact Me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:patricia@gmail.com" class="text-center email-link"
+          <a
+            href="mailto:patricia@gmail.com"
+            class="text-center email-link"
+            title="Patricia's email"
             >patricia@gmail.com</a
           >
         </div>
@@ -102,18 +131,29 @@
             href="https://wwww.instagram.com/patricia"
             class="fa-brands fa-instagram"
             target="_blank"
+            title="Patricia's instagram"
           ></a>
           <a
             href="https://wwww.github.com/patricia"
             class="fa-brands fa-github"
             target="_blank"
+            title="Patricia's Github"
           ></a>
           <a
             href="https://wwww.twitter.com/patricia"
             class="fa-brands fa-twitter"
             target="_blank"
+            title="Patricia's twitter"
           ></a>
         </div>
+        <p class="text-center mt-5">
+          This project was coded by Patricia Pereira and is
+          <a
+            href="https://github.com/alimacy2508/portfolio-project-SheCodes"
+            title="Github repository of this project"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
     <script
